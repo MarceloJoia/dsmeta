@@ -1,8 +1,8 @@
 # DSMETA
-[Licença Git]
 [![NPM](https://img.shields.io/npm/l/react)]([https://github.com/MarceloJoia/dsmeta/blob/main/LICENCE])
 
 [# Sobre o projeto]
+
 Site [Duck Duck Go](https://dsmeta-de.netlify.app "Veja o Front End").
 
 ## Implantação em produção
