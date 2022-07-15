@@ -10,17 +10,15 @@ import './style.css';
 
 function SalesCard() {
 
-
     const min = new Date(new Date().setDate(new Date().getDate() - 360));
     const max = new Date();
 
     const [minDate, setMinDate] = useState(min);
     const [maxDate, setMaxDate] = useState(max);
 
-    /*
-    [user state] ARMAZENA A LISTA DE VENDAS
-    [sale] nome do DADO
-    [setSales] função que altera os dados
+    /*[user state] ARMAZENA A LISTA DE VENDAS
+     *[sale] nome do DADO
+     *[setSales] função que altera os dados
     */
     const [sales, setSales] = useState<Sale[]>([]);
 
@@ -87,7 +85,7 @@ function SalesCard() {
                                     <td>R$ {sale.amount.toFixed(2)}</td>
                                     <td>
                                         <div className="dsmeta-red-btn-container">
-                                            <NotificationButton />
+                                            <NotificationButton saleId={sale.id} />
                                         </div>
                                     </td>
                                 </tr>
