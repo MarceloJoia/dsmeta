@@ -3,7 +3,7 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/MarceloJoia/dsmeta/blob/main/LICENCE)
 
 
-[# Sobre o projeto]
+## Sobre o projeto
 
 [Veja o Front End](https://dsmeta-de.netlify.app "Veja o Front End").
 
@@ -25,3 +25,4 @@ Pré-requisitos: npm / yarn
 
 # Autor
 Marcelo Joia
+[LinkedIn](https://www.linkedin.com/in/marcelo-joia-2284a39b)
