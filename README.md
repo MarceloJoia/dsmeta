@@ -7,6 +7,10 @@
 
 [Veja o Front End](https://dsmeta-de.netlify.app "Veja o Front End").
 
+## Layouts
+![Mobile](https://github.com/MarceloJoia/dsmeta/blob/main/assets/mobile.png)
+![Tablet](https://github.com/MarceloJoia/dsmeta/blob/main/assets/web576.png)
+![Desktop](https://github.com/MarceloJoia/dsmeta/blob/main/assets/web992.png)
 
 ## Implantação em produção
 
