@@ -1,0 +1,20 @@
+package br.com.joiamarketing.dsmeta.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import br.com.joiamarketing.dsmeta.entities.Sale;
+import br.com.joiamarketing.dsmeta.repositories.SaleRepository;
+
+public class SaleService {
+	// PEGAR AS VENDAS NO BONCO
+
+	@Autowired
+	private SaleRepository repository;
+
+	public List<Sale> findSales() {
+
+		return null;
+	}
+}

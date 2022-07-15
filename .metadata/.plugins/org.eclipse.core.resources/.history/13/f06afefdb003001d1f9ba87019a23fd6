@@ -1,0 +1,13 @@
+package br.com.joiamarketing.dsmeta.entities;
+
+import java.sql.Date;
+
+public class Sale {
+	
+	private String seller_name;
+	private String visited;
+	private String deals;
+	private Double amount;
+	private Date date;
+
+}

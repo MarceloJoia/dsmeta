@@ -1,0 +1,12 @@
+package br.com.joiamarketing.dsmeta.services;
+
+import java.util.List;
+
+import br.com.joiamarketing.dsmeta.entities.Sale;
+
+public class SaleService {
+	// PEGAR AS VENDAS NO BONCO
+	public List<Sale> findSales() {
+
+	}
+}

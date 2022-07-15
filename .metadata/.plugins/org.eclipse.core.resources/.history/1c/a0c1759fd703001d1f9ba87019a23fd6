@@ -1,0 +1,5 @@
+package br.com.joiamarketing.dsmeta.services;
+
+public class SmsService {
+
+}

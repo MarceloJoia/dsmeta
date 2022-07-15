@@ -1,0 +1,21 @@
+package br.com.joiamarketing.dsmeta.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
+
+import br.com.joiamarketing.dsmeta.entities.Sale;
+import br.com.joiamarketing.dsmeta.repositories.SaleRepository;
+
+@Service
+public class SaleService {
+	// PEGAR AS VENDAS NO BONCO
+
+	@Autowired
+	private SaleRepository repository;
+
+	public Page<Sale> findSales(Pageable pageable) {
+		return repository.findAll(pageable);
+	}
+}
