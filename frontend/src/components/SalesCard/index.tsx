@@ -25,12 +25,19 @@ function SalesCard() {
     const [sales, setSales] = useState<Sale[]>([]);
 
     useEffect(() => {
-        axios.get(`${BASE_URL}/sales`)
+        // PEGAR DATA
+        //console.log(minDate);// VER COMO A DATE ESTÁ CHEGANDO
+        const dtaMin = minDate.toISOString().slice(0, 10);
+        const dtaMax = maxDate.toISOString().slice(0, 10);
+        //console.log(dtaMin);
+
+        //POPULAR CONTENT
+        axios.get(`${BASE_URL}/sales?minDate=${dtaMin}&maxDate=${dtaMax}`)
             .then(response => {
                 //console.log(response.data)
                 setSales(response.data.content);
             })
-    }, []);
+    }, [minDate, maxDate]);//QUANDO ALGUNS DESTES DADOS MODAREM ATUALIZA A TABELA
 
     return (
         <div className="dsmeta-card">
